@@ -7,13 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainPageView: UIViewController {
+    
+    var name: String = ""
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        name = "일단 텍스트 필드 대체"
     }
-
 
 }
 
